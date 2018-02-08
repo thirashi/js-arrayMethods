@@ -100,6 +100,10 @@ console.log(oneLove);
 /*8. Help Nike sell more overpriced sneakers by changing their slogan from an array into a string. Convert the shoe array and assign it to a variable named `shoeString`. Console.log this new variable.*/
 
 var shoe = ["just", "do", "it"];
+console.log(shoe);
+
+var shoeString = shoe.join();
+console.log(shoeString);
 
 
 
