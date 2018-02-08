@@ -88,8 +88,13 @@ console.log(testMenu);
 var westSide = ["Dre", "2Pac", "Snoop"];
 var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 
+console.log(westSide);
+console.log(testMenu);
 
 
+var oneLove = westSide.concat(eastSide);
+
+console.log(oneLove);
 /*The array.join() joins all the elements of an array into a string.*/
 
 /*8. Help Nike sell more overpriced sneakers by changing their slogan from an array into a string. Convert the shoe array and assign it to a variable named `shoeString`. Console.log this new variable.*/
