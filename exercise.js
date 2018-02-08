@@ -34,12 +34,15 @@ console.log(shoppingList);
 
 
 
-
 /*The array.reverse() reverses the order of the element of an array in place - the first becomes the last and the last becomes the first*/
 
 /*3. Use the force, or in this case the reverse method to help Yoda make some sense with his motivational talk to the young Jedi interns.*/
 
 var yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
+ console.log(yoda);
+
+ yoda.reverse();
+ console.log(yoda);
 
 
 
