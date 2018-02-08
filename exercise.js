@@ -70,6 +70,10 @@ array.splice(index, how many items to be removed)*/
 /*6. As head of McDonald's New Product Division, your job is to test and approve all new menu items. In the testMenu array below, all the items are approved except for "McLinguine" and "McChar-Siu Bau". Remove these items from the list and console.log the updated testMenu.*/
 
 var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau", "McChop-Chae", "McPancit"];
+console.log(testMenu);
+
+testMenu.splice(2, 3);
+console.log(testMenu);
 
 
 
