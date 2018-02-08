@@ -15,6 +15,9 @@
 var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
 console.log(hof);
 
+hof.pop();
+console.log(hof);
+
 
 
 /* The array.push() adds one or more element to the end of an array and returns the new length of the array*/
