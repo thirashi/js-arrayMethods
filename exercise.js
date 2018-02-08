@@ -61,7 +61,8 @@ console.log(waitList);
 
 /*5. Apparently, you didn't do a good job with crowd control in the previous exercise. Kanye just cut in front of everyone!. Add Kanye to the waitList array above. Console.log waitList*/
 
-
+waitList.unshift("Kanye");
+console.log(waitList);
 
 /*The array.splice() adds and/or removes elements from an array.
 array.splice(index, how many items to be removed)*/
